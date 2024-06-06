@@ -1,0 +1,82 @@
+/* Custom CSS */
+body {
+    padding-top: 70px; /* Space for fixed navbar */
+}
+
+
+.section {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Custom styles for cards */
+.section .card {
+    background-color: #f9f9f9; /* Light gray background for cards */
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px; /* Padding inside cards */
+    margin-bottom: 20px; /* Space between cards */
+}
+
+/* Additional styling for text center */
+.text-center {
+    text-align: center;
+}
+
+/* Additional styling for card headings */
+.section .card h3 {
+    margin-top: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 15px;
+}
+
+.dropdown-menu {
+    background-color: #f8f8f8;
+}
+
+/* Basic styling for the menu section */
+.menu-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Centering the text */
+.text-center {
+    text-align: center;
+}
+
+/* Styling for the card */
+.card {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-nav > li {
+        text-align: center;
+    }
+}
